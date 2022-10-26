@@ -1,0 +1,72 @@
+.navbar {
+    overflow: hidden;
+}
+
+.logo  {
+    background-image: url("../img/logo-circle.png");
+}
+
+.link-wrapper a {
+    font-weight: bolder;
+    color: black;
+    border-radius: 5px;
+}
+
+.link-wrapper a:hover {
+    color: #5058f2;
+}
+
+.special-dropdown {
+    width: 70%;
+    min-width: 178px !important;
+    max-width: 305px;
+}
+
+.ring-profile-wrapper {
+    position: absolute;
+    top: 75px;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.ring-profile-wrapper a {
+    border-radius: 10px;
+}
+
+.item-ring {
+    background: url("../img/icons/nav-bell.png");
+    background-color: rgba(128, 128, 128, 0.289);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 38px;
+    width: 38px;
+}
+
+.item-profile {
+    background: url("../img/icons/nav-hotel.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 38px;
+    width: 38px;
+}
+
+@media screen and (min-width: 992px) {
+    .ring-profile-wrapper {
+        margin-left: 1rem;
+        position: initial;
+        display: block;
+        flex-direction: initial;
+        gap: .5rem;
+    }
+
+    .navbar {
+        overflow: initial;
+    }
+
+    .link-wrapper a:hover{
+        background-color: #cdcdcd61;
+    }
+}
