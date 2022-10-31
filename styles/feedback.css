@@ -27,13 +27,14 @@
 }
 
 .feedback__texts {
-    width: 50%;
+  width: 40%;
 }
 
 .feedback__texts img {
-    width: 5rem;
+  width: 2rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
 }
-
 
 @media screen and (min-width: 1024px) {
   .feedback__banner {
@@ -44,5 +45,9 @@
   .feedback__banner-icon {
     left: -10%;
     width: 4rem;
+  }
+
+  .feedback__texts img {
+    width: 3rem;
   }
 }
