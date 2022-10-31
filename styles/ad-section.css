@@ -10,6 +10,23 @@
   flex-direction: column;
 }
 
+.section__ad-title {
+  position: relative;
+}
+
+.section__ad-title::after {
+  content: "";
+  z-index: -1000;
+  position: absolute;
+  bottom: -95px;
+  left: 27%;
+  width: 45%; 
+  height: 100px;  
+  border: solid 5px;
+  border-color: #5058f2d1 transparent transparent transparent;
+  border-radius: 50%/10px 1px 0 0;
+}
+
 .section__ad-list {
   display: flex;
   justify-content: center;
@@ -169,6 +186,12 @@
     margin-top: 3rem;
     display: flex;
     flex-direction: column;
+  }
+
+  .section__ad-title::after {
+    bottom: -90px;
+    left: 15px;
+    width: 35%; 
   }
 
   .section__ad-list {
