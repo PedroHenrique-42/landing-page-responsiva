@@ -1,0 +1,90 @@
+.section__holidays {
+  display: flex;
+  justify-content: center;
+}
+
+.section__holidays > article {
+  text-align: center;
+}
+
+.banner-holidays {
+  display: none;
+  background: url("../img/piscina-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.advantages {
+    text-align: center;
+}
+
+.advantages-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50%;
+}
+
+.advantages-item h5 {
+    font-weight: bold;
+}
+
+.advantages-item svg {
+    width: 50px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 40%
+}
+
+.advantages-item1 svg {
+    fill: rgb(38, 117, 55);
+    background-color: rgba(140, 199, 140, 0.315);
+}
+
+.advantages-item2 svg {
+    fill: rgb(117, 38, 38);
+    background-color: rgba(199, 140, 140, 0.315);
+}
+
+.advantages-item3 svg {
+    fill: rgb(255, 136, 0);
+    background-color: rgba(255, 136, 0, 0.377);
+}
+
+.advantages-item4 svg {
+    fill: rgb(0, 174, 255);
+    background-color: rgba(0, 174, 255, 0.397);
+}
+
+
+@media screen and (min-width: 1024px) {
+  .section__holidays {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section__holidays > article {
+    width: 50%;
+    height: 50%;
+  }
+
+  .banner-holidays {
+    display: initial;
+    width: 35%;
+    height: 31rem;
+  }
+
+  .section__holidays article {
+    text-align: initial;
+  }
+
+  .advantages-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: initial;
+}
+}
