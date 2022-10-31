@@ -13,6 +13,7 @@
 .section__ad-list {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 1rem;
   padding: 0;
 }
@@ -24,10 +25,17 @@
   background-color: #cdcdcd92;
   transition: 0.3s;
   font-weight: bold;
+  height: 37px;
 }
 
 .section__ad-list li a:hover {
   color: #5058f2 !important;
+}
+
+.pool-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .pool-item-img {
