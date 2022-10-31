@@ -1,0 +1,48 @@
+.section__feedback {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.feedback__banner {
+  position: relative;
+
+  background-image: url(../img/feedback-banner.png);
+  background-color: #ab7bd1;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 10px;
+}
+
+.feedback__banner-icon {
+  border-radius: 10px;
+
+  width: 1.7rem;
+  position: absolute;
+  left: -7%;
+  top: 5%;
+}
+
+.feedback__texts {
+    width: 50%;
+}
+
+.feedback__texts img {
+    width: 5rem;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .feedback__banner {
+    width: 20rem;
+    height: 18rem;
+  }
+
+  .feedback__banner-icon {
+    left: -10%;
+    width: 4rem;
+  }
+}
