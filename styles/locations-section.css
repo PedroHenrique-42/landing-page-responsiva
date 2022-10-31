@@ -1,0 +1,23 @@
+.section__locations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.locations-wrapper {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.locations-wrapper div {
+    padding: 0;
+}
+
+.locations-wrapper div img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+}
