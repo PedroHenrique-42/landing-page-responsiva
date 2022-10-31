@@ -16,6 +16,8 @@
   <link rel="stylesheet" href="../styles/partners-section.css">
   <link rel="stylesheet" href="../styles/feedback-section.css">
   <link rel="stylesheet" href="../styles/locations-section.css">
+  <link rel="stylesheet" href="../styles/download-section.css">
+  <link rel="stylesheet" href="../styles/footer.css">
   <!-- Bootstrap CSS-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
@@ -26,7 +28,7 @@
 </head>
 
 <body>
-  <header class="default-container bg-light">
+  <header class="default-container">
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid position-relative">
         <a class="navbar-brand d-flex align-items-center" href="#">
@@ -129,8 +131,8 @@
     </nav>
   </header>
 
-  <main class="default-container">
-    <section class="section__ad">
+  <main class="">
+    <section class="section__ad default-container">
       <div class="section__ad-content">
         <h1 class="section__ad-title fw-bold">Find the top<br />Hotels nearby.</h1>
         <p class="text-secondary">
@@ -208,7 +210,7 @@
       </div>
     </section>
 
-    <section class="section__campaign mt-5">
+    <section class="section__campaign default-container mt-5">
       <div class="row campaign">
         <div class="card-campaign col-8 col-md-4 p-0">
           <div class="row g-0">
@@ -252,7 +254,7 @@
       </div>
     </section>
 
-    <section class="section__holidays mt-5">
+    <section class="section__holidays default-container mt-5">
       <div class="banner-holidays"></div>
 
       <article>
@@ -316,7 +318,7 @@
       </article>
     </section>
 
-    <section class="section__hotel mt-5">
+    <section class="section__hotel default-container mt-5">
       <h1 class="fw-bold text-center">Featured Hotels</h1>
 
       <div class="hotel-card-wrapper row">
@@ -394,19 +396,22 @@
       </div>
     </section>
 
-    <section class="section__partners row mt-5">
-      <img src="../img/partner1.png" class="col-md-1" alt="Partner 1">
-      <img src="../img/partner2.png" class="col-md-1" alt="Partner 2">
-      <img src="../img/partner3.png" class="col-md-1" alt="Partner 3">
-      <img src="../img/partner4.png" class="col-md-1" alt="Partner 4">
-      <img src="../img/partner5.png" class="col-md-1" alt="Partner 5">
-      <img src="../img/partner6.png" class="col-md-1" alt="Partner 6">
+    <section class="section__partners default-container mt-5">
+      <div class="row">
+        <img src="../img/partner1.png" alt="Partner 1">
+        <img src="../img/partner2.png" alt="Partner 2">
+        <img src="../img/partner3.png" alt="Partner 3">
+        <img src="../img/partner4.png" alt="Partner 4">
+        <img src="../img/partner5.png" alt="Partner 5">
+        <img src="../img/partner6.png" alt="Partner 6">
+      </div>
+
     </section>
 
-    <section class="section__feedback mt-5">
+    <section class="section__feedback default-container mt-5">
 
       <div class="feedback__banner">
-          <img class="feedback__banner-icon" src="../img/feedback-emoji.png" alt="Emoji uau" />
+        <img class="feedback__banner-icon" src="../img/feedback-emoji.png" alt="Emoji uau" />
       </div>
 
       <div class="feedback__texts">
@@ -418,41 +423,41 @@
       </div>
     </section>
 
-    <section class="section__locations mt-5">
+    <section class="section__locations default-container mt-5">
       <h1 class="fw-bold">Explore Nearby</h1>
 
       <div class="locations-wrapper row mt-2">
-        <div class="col-6 col-md-4 col-lg-2">
+        <div class="col-6 col-sm-4 col-lg-2">
           <img src="../img/locations1.jpg" alt="San Francisco">
           <h5 class="fw-bold pt-3">San<br>Francisco</h5>
           <p class="text-secondary">13 min drive</p>
         </div>
 
-        <div class="col-6 col-md-4 col-lg-2">
+        <div class="col-6 col-sm-4 col-lg-2">
           <img src="../img/locations2.jpg" alt="Los Angeles">
           <h5 class="fw-bold pt-3">Los Angeles</h5>
           <p class="text-secondary">25 min drive</p>
         </div>
 
-        <div class="col-6 col-md-4 col-lg-2">
+        <div class="col-6 col-sm-4 col-lg-2">
           <img src="../img/locations3.jpg" alt="Miami">
           <h5 class="fw-bold pt-3">Miami</h5>
           <p class="text-secondary">45 min drive</p>
         </div>
 
-        <div class="col-6 col-md-4 col-lg-2">
+        <div class="col-6 col-sm-4 col-lg-2">
           <img src="../img/locations4.jpg" alt="Sanjosh">
           <h5 class="fw-bold pt-3">Sanjosh</h5>
           <p class="text-secondary">55 min drive</p>
         </div>
 
-        <div class="col-6 col-md-4 col-lg-2">
+        <div class="col-6 col-sm-4 col-lg-2">
           <img src="../img/locations5.jpg" alt="New York">
           <h5 class="fw-bold pt-3">New York</h5>
           <p class="text-secondary">1-hour drive</p>
         </div>
 
-        <div class="col-6 col-md-4 col-lg-2">
+        <div class="col-6 col-sm-4 col-lg-2">
           <img src="../img/locations6.jpg" alt="North Justen">
           <h5 class="fw-bold pt-3">North Justen</h5>
           <p class="text-secondary">2-hour drive</p>
@@ -460,37 +465,37 @@
       </div>
 
       <div class="locations-wrapper row mt-5">
-        <div class="col-6 col-md-4 col-lg-2">
+        <div class="col-6 col-sm-4 col-lg-2">
           <img src="../img/locations7.jpg" alt="Rio">
           <h5 class="fw-bold pt-3">Rio</h5>
           <p class="text-secondary">20 min drive</p>
         </div>
 
-        <div class="col-6 col-md-4 col-lg-2">
+        <div class="col-6 col-sm-4 col-lg-2">
           <img src="../img/locations8.jpg" alt="Las Vegas">
           <h5 class="fw-bold pt-3">Las Vegas</h5>
           <p class="text-secondary">3-hour drive</p>
         </div>
 
-        <div class="col-6 col-md-4 col-lg-2">
+        <div class="col-6 col-sm-4 col-lg-2">
           <img src="../img/locations9.jpg" alt="Texas">
           <h5 class="fw-bold pt-3">Texas</h5>
           <p class="text-secondary">55 min drive</p>
         </div>
 
-        <div class="col-6 col-md-4 col-lg-2">
+        <div class="col-6 col-sm-4 col-lg-2">
           <img src="../img/locations10.jpeg" alt="Chicago">
           <h5 class="fw-bold pt-3">Chicago</h5>
           <p class="text-secondary">13 min drive</p>
         </div>
 
-        <div class="col-6 col-md-4 col-lg-2">
+        <div class="col-6 col-sm-4 col-lg-2">
           <img src="../img/locations11.jpg" alt="New Keagan">
           <h5 class="fw-bold pt-3">New Keagan</h5>
           <p class="text-secondary">35 min drive</p>
         </div>
 
-        <div class="col-6 col-md-4 col-lg-2">
+        <div class="col-6 col-sm-4 col-lg-2">
           <img src="../img/locations12.jpg" alt="Oslo">
           <h5 class="fw-bold pt-3">Oslo</h5>
           <p class="text-secondary">1-hour 13 drive</p>
@@ -499,7 +504,31 @@
 
     </section>
 
-    
+    <section class="section__download default-container mt-5">
+      <div class="download-section-message">
+        <img src="../img/icons/take-care-icon.png" alt="Take care">
+        <div>
+          <h5 class="fw-bold">24x7 Help</h5>
+          <p class="text-secondary">If we fall short of your expectation in any way, let us know</p>
+        </div>
+      </div>
+
+      <div class="download-section-message">
+        <img src="../img/icons/payement.png" alt="Take care">
+        <div>
+          <h5 class="fw-bold">24x7 Help</h5>
+          <p class="text-secondary">If we fall short of your expectation in any way, let us know</p>
+        </div>
+      </div>
+
+      <div class="app-link">
+        <h5 class="fw-bold">Download App</h5>
+        <div>
+          <a href="#"><img src="../img/link-app1.png" alt="Google Play"></a>
+          <a href="#"><img src="../img/link-app2.png" alt="Apple Store"></a>
+        </div>
+      </div>
+    </section>
   </main>
 
 
@@ -542,7 +571,201 @@
 
 
 
-  <footer class="default-container"></footer>
+  <footer class="default-container">
+    <nav class="row">
+      <div class="logo-footer col-12 col-md-2 p-0">
+        <a class="text-decoration-none d-flex align-items-center" href="#">
+          <img src="../img/logo-circle.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top" />
+          <p class="d-inline-block m-0 fw-semibold fs-4 text-light">Booking</p>
+        </a>
+
+        <p>
+          Departure defective arranging rapturous<br> did believe him all had supported.
+        </p>
+
+        <a class="nav-link d-flex align-items-center m-0" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-telephone"
+            viewBox="0 0 16 16">
+            <path
+              d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+          </svg>
+          <p class="d-inline-block m-0 ps-1">+1234 568 963</p>
+        </a>
+
+        <a class="nav-link d-flex align-items-center m-0" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-envelope"
+            viewBox="0 0 16 16">
+            <path
+              d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+          </svg>
+          <p class="d-inline-block m-0 ps-1">you@gmail.com</p>
+        </a>
+      </div>
+
+      <ul class="col-6 col-md-2">
+        <h5>Page</h5>
+        <li><a href="">About us</a></li>
+        <li><a href="">Contact us</a></li>
+        <li><a href="">News and Blog</a></li>
+        <li><a href="">Meet a Team</a></li>
+      </ul>
+
+      <ul class="col-6 col-md-2">
+        <h5>Link</h5>
+        <li><a href="">Sign up</a></li>
+        <li><a href="">Sign in</a></li>
+        <li><a href="">Privacy Policy</a></li>
+        <li><a href="">Terms</a></li>
+        <li><a href="">Cookie</a></li>
+        <li><a href="">Support</a></li>
+      </ul>
+
+      <ul class="col-6 col-md-2">
+        <h5>Global Site</h5>
+        <li><a href="">India</a></li>
+        <li><a href="">California</a></li>
+        <li><a href="">Indonesia</a></li>
+        <li><a href="">Canada</a></li>
+        <li><a href="">Malaysia</a></li>
+      </ul>
+
+      <ul class="col-6 col-md-2">
+        <h5>Booking</h5>
+
+        <li>
+          <a href="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-building"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z" />
+              <path
+                d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z" />
+            </svg>
+            Hotel
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-airplane"
+              viewBox="0 0 16 16">
+              <path
+                d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Zm.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1c-.213 0-.458.158-.678.599Z" />
+            </svg>
+            Flight
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-globe"
+              viewBox="0 0 16 16">
+              <path
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z" />
+            </svg>
+            Tour
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-car-front-fill"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189l.956-1.913A.5.5 0 0 1 4.309 3h7.382a.5.5 0 0 1 .447.276l.956 1.913a.51.51 0 0 1-.497.731c-.91-.073-3.35-.17-4.597-.17-1.247 0-3.688.097-4.597.17a.51.51 0 0 1-.497-.731Z" />
+            </svg>
+            Cab
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="top-links">
+      <h5 class="fw-bold">Top Links</h5>
+
+      <ul class="top-links-ul">
+        <li><a href="">Flights</a></li>
+        <li><a href="">Hotels</a></li>
+        <li><a href="">Tours</a></li>
+        <li><a href="">Cabs</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact us</a></li>
+        <li><a href="">Blogs</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Detail Page</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Policy</a></li>
+        <li><a href="">Testimonials</a></li>
+        <li><a href="">Newsletters</a></li>
+        <li><a href="">Podcasts</a></li>
+        <li><a href="">Protests</a></li>
+        <li><a href="">NewsCyber</a></li>
+        <li><a href="">Education</a></li>
+        <li><a href="">Sports</a></li>
+        <li><a href="">Tech and Auto</a></li>
+        <li><a href="">Opinion</a></li>
+        <li><a href="">Share Market</a></li>
+      </ul>
+    </section>
+
+    <section class="payements">
+      <div>
+        <h5 class="fw-bold">
+          Payement & Security
+        </h5>
+        <figure class="payement-icons">
+          <img src="../img/paypal.png" alt="PayPal">
+          <img src="../img/visa.png" alt="Visa">
+          <img src="../img/master-card.png" alt="MasterCard">
+          <img src="../img/credit-card.png" alt="Card">
+        </figure>
+
+      </div>
+
+      <div>
+        <h5 class="fw-bold text-end">
+          Follow us on
+        </h5>
+        <figure class="social-icons">
+          <img src="../img/facebook.png" alt="Facebook">
+          <img src="../img/instagram.png" alt="Instagram">
+          <img src="../img/twitter.png" alt="Twitter">
+          <img src="../img/linkedin.png" alt="Linkedin">
+        </figure>
+      </div>
+    </section>
+
+    <section class="copyright">
+      <p>Copyrights &#169;2022 Booking. All rights reserved.</p>
+
+      <ul>
+        <li><a href="">Privacy policy</a></li>
+        <li><a href="">Terms and conditions</a></li>
+        <li><a href="">Refund policy</a></li>
+      </ul>
+    </section>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
