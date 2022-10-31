@@ -5,6 +5,11 @@
     gap: 10px;
 }
 
+.hotel-card-wrapper div img {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
 .hotel-card-wrapper > div {
     max-width: 250px;
     padding: 0;
