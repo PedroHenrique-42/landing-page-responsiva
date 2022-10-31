@@ -6,6 +6,11 @@ body {
     font-family: 'Roboto Flex', sans-serif;
 }
 
+.row {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
 @media screen and (min-width: 1024px) {
     .default-container {
         padding-left: calc((100% - 1040px)/2);
