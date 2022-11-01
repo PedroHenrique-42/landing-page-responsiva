@@ -72,9 +72,34 @@
   }
 
   .banner-holidays {
-    display: initial;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
     width: 35%;
     height: 31rem;
+  }
+
+  .banner-holidays a {
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 0 0 1rem 1rem;
+  }
+
+  .banner-holidays img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+  }
+
+  .banner-holidays-img-align {
+    margin: -.4rem;
+  }
+
+  .banner-holidays p {
+    margin: 0;
   }
 
   .section__holidays article {
