@@ -179,7 +179,6 @@
   .section__ad {
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 1rem;
     text-align: initial;
   }
 
